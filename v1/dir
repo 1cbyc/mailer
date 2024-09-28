@@ -1,0 +1,19 @@
+mailer/
+├── config/
+│   └── config.php       # For configuration like SMTP details
+├── src/
+│   ├── Mailer.php       # A class to handle email sending
+│   └── functions.php    # Utility functions (sanitization, validation)
+├── logs/
+│   └── mail.log         # Logs sent emails and errors
+├── public/
+│   ├── index.php        # The frontend HTML form
+│   ├── send_email.php   # Handles the form submission
+│   └── assets/
+│       ├── css/
+│       │   └── style.css # CSS styles
+│       └── js/
+│           └── main.js   # JavaScript for form validation
+├── vendor/              # For PHPMailer (if needed, via Composer)
+├── .env                 # Store sensitive data (SMTP credentials, etc.)
+└── README.md            # Project instructions
