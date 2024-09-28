@@ -14,3 +14,4 @@ well, i want to keep the open source projects i manage very lean.
 1. the webscraper
 2. this web mailer
 3. the network analyzer
+4. the auto
