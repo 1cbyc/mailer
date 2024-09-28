@@ -59,3 +59,59 @@ Thumbs.db
 bootstrap/cache/
 storage/
 .env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual Environments
+venv/
+env/
+env.bak/
+venv.bak/
+*.env
+*.env.local
+
+# Distribution / Packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Test & Coverage
+.coverage
+.coverage.*
+nosetests.xml
+pytest.xml
+*.cover
+*.log
+*.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+
+# Pytest
+.cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+darglint.txt
+
+# Other files
+*.DS_Store
+Thumbs.db
