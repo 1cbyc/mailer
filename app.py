@@ -6,11 +6,10 @@ from email_validator import validate_email, EmailNotValidError
 from werkzeug.utils import secure_filename
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
 load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Replace with an actual secret key
+app.secret_key = 'your_secret_key'
 
 # Configuring the upload folder for attachments
 app.config['UPLOAD_FOLDER'] = './attachments/'
