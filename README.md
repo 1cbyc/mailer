@@ -12,4 +12,5 @@ i was thinking i should revamp from php to python for the backend, but i realize
 
 well, i want to keep the open source projects i manage very lean. 
 1. the webscraper
-2. 
+2. this web mailer
+3. the network analyzer
