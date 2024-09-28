@@ -1,3 +1,60 @@
 v1/dir
 hide.c
 h
+
+# General
+*.log
+*.env
+.env.local
+*.lock
+*.DS_Store
+Thumbs.db
+
+# PHP Composer
+/vendor/
+/composer.lock
+composer.phar
+
+# Node.js
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Build files
+/build/
+/dist/
+
+# PHP Specific
+*.php~
+*.phar
+*.swp
+.idea/ # PHPStorm or Webstorm files
+*.sql
+
+# JavaScript Specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.cache
+*.eslintcache
+
+# Temporary files
+*.tmp
+*.temp
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# SASS / SCSS cache
+.sass-cache/
+
+# Laravel (if using Laravel)
+bootstrap/cache/
+storage/
+.env
