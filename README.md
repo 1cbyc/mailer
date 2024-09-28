@@ -5,3 +5,5 @@ In this script, the mail() function is used to send an email to the recipient em
 You can customize the values of these variables to suit your needs. Note that the mail() function requires a properly configured mail server on the host machine in order to work properly.
 
 
+## UPDATE -
+today is sept
