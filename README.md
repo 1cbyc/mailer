@@ -6,4 +6,4 @@ You can customize the values of these variables to suit your needs. Note that th
 
 
 ## UPDATE -
-today is sept
+today is september 2024, and i am making a significant update to this. i had this 
