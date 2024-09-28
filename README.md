@@ -18,5 +18,5 @@ well, i want to keep the open source projects i manage very lean.
 5. illness identifier
 
 
-well, that is by the way.
+well, that is by the way. about this, i really hope people come to this, this is the v2 of this for me, but the v1 for everyone.
 
