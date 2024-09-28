@@ -9,13 +9,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'
+app.secret_key = 'my_secret_key'
 
-# Configuring the upload folder for attachments
 app.config['UPLOAD_FOLDER'] = './attachments/'
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 
-# Helper function to check file extension
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
@@ -23,7 +21,6 @@ def allowed_file(filename):
 def send_mail():
     if request.method == 'POST':
         try:
-            # Extract form data
             sender = request.form['from']
             recipient = request.form['to']
             subject = request.form['subject']
@@ -31,7 +28,6 @@ def send_mail():
             cc = request.form.get('cc', '')
             bcc = request.form.get('bcc', '')
 
-            # Validate the sender and recipient emails
             validate_email(sender)
             validate_email(recipient)
 
