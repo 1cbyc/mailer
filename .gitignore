@@ -115,3 +115,7 @@ darglint.txt
 # Other files
 *.DS_Store
 Thumbs.db
+
+
+# env
+/mailer
