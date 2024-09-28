@@ -13,7 +13,7 @@ mailer/
 │       ├── css/
 │       │   └── style.css 
 │       └── js/
-│           └── main.js   # JavaScript for form validation
-├── vendor/              # For PHPMailer (if needed, via Composer)
-├── .env                 # Store sensitive data (SMTP credentials, etc.)
-└── README.md            # Project instructions
+│           └── main.js   
+├── vendor/           
+├── .env                 
+└── README.md            
