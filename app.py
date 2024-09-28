@@ -31,7 +31,6 @@ def send_mail():
             validate_email(sender)
             validate_email(recipient)
 
-            # Constructing the email
             msg = EmailMessage()
             msg.set_content(message_content)
             msg.add_alternative(message_content, subtype='html')  # HTML message
@@ -39,7 +38,6 @@ def send_mail():
             msg['From'] = sender
             msg['To'] = recipient
 
-            # Add CC, BCC if provided
             if cc:
                 msg['Cc'] = cc
             if bcc:
