@@ -11,4 +11,5 @@ today is september 2024, and i am making a significant update to this. i had thi
 i was thinking i should revamp from php to python for the backend, but i realized not everyone would be able to work with python easy.
 
 well, i want to keep the open source projects i manage very lean. 
-1. 
+1. the webscraper
+2. 
