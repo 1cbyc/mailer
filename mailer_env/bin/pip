@@ -1,4 +1,4 @@
-#!/Users/1cbyc/Projects/php-email-sender-1/mailer_env/bin/python3.12
+#!/Users/1cbyc/Projects/mailer/mailer_env/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
