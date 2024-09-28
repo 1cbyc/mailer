@@ -1,1 +1,2 @@
-pip install email-validator
+Flask
+email-validator
