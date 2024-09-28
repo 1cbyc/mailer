@@ -2,7 +2,7 @@
 
 <!-- In this script, the mail() function is used to send an email to the recipient email address specified in the $to variable. The email subject and message are specified in the $subject and $message variables, respectively. The $headers variable contains the sender email address. -->
 
-You can customize the values of these variables to suit your needs. Note that the mail() function requires a properly configured mail server on the host machine in order to work properly.
+<!-- You can customize the values of these variables to suit your needs. Note that the mail() function requires a properly configured mail server on the host machine in order to work properly. -->
 
 I intend to write multiple versions of email sending systems for web pages. However, we would start from the most basic method in v1 to a lot more complex module over time. Keep watch, I might as well write a version that'll allow you send emails on web pages via another user email.
 
