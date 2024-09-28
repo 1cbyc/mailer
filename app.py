@@ -21,7 +21,7 @@ def send_mail():
         try:
             with smtplib.SMTP('smtp.provider.com', 587) as server:
                 server.starttls()
-                server.login('anyemal@example.com', 'your_password')
+                server.login('my@mail.com', 'my')
                 server.send_message(msg)
             return 'Email sent successfully!'
         except Exception as e:
