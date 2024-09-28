@@ -19,9 +19,9 @@ def send_mail():
         msg['To'] = recipient
 
         try:
-            with smtplib.SMTP('smtp.yourprovider.com', 587) as server:
+            with smtplib.SMTP('smtp.provider.com', 587) as server:
                 server.starttls()
-                server.login('your_email@example.com', 'your_password')
+                server.login('anyemal@example.com', 'your_password')
                 server.send_message(msg)
             return 'Email sent successfully!'
         except Exception as e:
