@@ -1,6 +1,6 @@
 *v1/dir
-hide.c
-*h
+/hide.c
+/h
 
 # General
 *.log
@@ -11,8 +11,9 @@ hide.c
 Thumbs.db
 
 # PHP Composer
-/vendor/
+/php/vendor/
 /composer.lock
+/php/composer.lock
 composer.phar
 
 # Node.js

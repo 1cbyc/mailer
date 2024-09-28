@@ -19,5 +19,5 @@ well, i want to keep the open source projects i manage very lean.
 5. illness identifier
 
 
-well, that is by the way. about this, i really hope people come to this, this is the v2 of this for me, but the v1 for everyone.
+well, that is by the way. about this, i really hope people come to this, this is the v2 of this for me, but the v1 for everyone. i just realized i might have serious issues with this, moving to python back, would work with flask. 
 
