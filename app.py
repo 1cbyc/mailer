@@ -33,7 +33,7 @@ def send_mail():
 
             msg = EmailMessage()
             msg.set_content(message_content)
-            msg.add_alternative(message_content, subtype='html')  # HTML message
+            msg.add_alternative(message_content, subtype='html')
             msg['Subject'] = subject
             msg['From'] = sender
             msg['To'] = recipient
@@ -43,7 +43,6 @@ def send_mail():
             if bcc:
                 msg['Bcc'] = bcc
 
-            # Handling attachments
             attachment = request.files.get('attachment')
             if attachment and allowed_file(attachment.filename):
                 filename = secure_filename(attachment.filename)
@@ -53,7 +52,6 @@ def send_mail():
                     file_type = attachment.content_type
                     msg.add_attachment(file_data, maintype='application', subtype=file_type, filename=filename)
 
-            # Sending the email
             with smtplib.SMTP(os.getenv('SMTP_SERVER'), int(os.getenv('SMTP_PORT'))) as server:
                 server.starttls()
                 server.login(os.getenv('SMTP_USERNAME'), os.getenv('SMTP_PASSWORD'))
