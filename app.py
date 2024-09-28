@@ -37,8 +37,8 @@ def send_mail():
 
         # Constructing the email
         msg = EmailMessage()
-        msg.set_content(message_content)  # Plain text version
-        msg.add_alternative(message_content, subtype='html')  # HTML version
+        msg.set_content(message_content)
+        msg.add_alternative(message_content, subtype='html')
         msg['Subject'] = subject
         msg['From'] = sender
         msg['To'] = recipient
