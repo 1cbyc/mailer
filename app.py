@@ -57,8 +57,8 @@ def send_mail():
                 msg.add_attachment(file_data, maintype='application', subtype=file_type, filename=filename)
 
         try:
-            with smtplib.SMTP('smtp.yourprovider.com', 587) as server:
-                server.starttls()  # Secures the connection
+            with smtplib.SMTP('smtp.myprovider.com', 587) as server:
+                server.starttls()
                 server.login('your_email@example.com', 'your_password')
                 server.send_message(msg)
             flash('Email sent successfully!', 'success')
