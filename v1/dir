@@ -3,15 +3,15 @@ mailer/
 │   └── config.php     
 ├── src/
 │   ├── Mailer.php       
-│   └── functions.php    # Utility functions (sanitization, validation)
+│   └── functions.php    
 ├── logs/
-│   └── mail.log         # Logs sent emails and errors
+│   └── mail.log         
 ├── public/
-│   ├── index.php        # The frontend HTML form
-│   ├── send_email.php   # Handles the form submission
+│   ├── index.php        
+│   ├── send_email.php   
 │   └── assets/
 │       ├── css/
-│       │   └── style.css # CSS styles
+│       │   └── style.css 
 │       └── js/
 │           └── main.js   # JavaScript for form validation
 ├── vendor/              # For PHPMailer (if needed, via Composer)
