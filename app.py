@@ -11,14 +11,12 @@ app.secret_key = 'your_secret_key'  # Required for flashing messages
 # Define allowed file extensions for attachments
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'docx'}
 
-# Helper function to check for allowed file extensions
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 @app.route('/', methods=['GET', 'POST'])
 def send_mail():
     if request.method == 'POST':
-        # Fetch email data from form
         sender = request.form['from']
         recipient = request.form['to']
         subject = request.form['subject']
@@ -28,14 +26,12 @@ def send_mail():
         reply_to = request.form.get('reply_to', '')
         headers = {}
 
-        # Handling attachment (optional)
         attachment = request.files['attachment']
         filename = None
         if attachment and allowed_file(attachment.filename):
             filename = secure_filename(attachment.filename)
             attachment.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
-        # Constructing the email
         msg = EmailMessage()
         msg.set_content(message_content)
         msg.add_alternative(message_content, subtype='html')
