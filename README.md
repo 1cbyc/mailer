@@ -6,4 +6,4 @@ You can customize the values of these variables to suit your needs. Note that th
 
 
 ## UPDATE -
-today is september 2024, and i am making a significant update to this. i had this project for my personal use over the years and now i want to allow anyone use it and also update it. please note that 
+today is september 2024, and i am making a significant update to this. i had this project for my personal use over the years and now i want to allow anyone use it and also update it. please note that it is for educational
