@@ -6,9 +6,8 @@ from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = './attachments/uploaded_files'
-app.secret_key = 'your_secret_key'  # Required for flashing messages
+app.secret_key = 'your_secret_key'
 
-# Define allowed file extensions for attachments
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'docx'}
 
 def allowed_file(filename):
