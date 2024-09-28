@@ -21,4 +21,4 @@ well, i want to keep the open source projects i manage very lean.
 
 well, that is by the way. about this, i really hope people come to this, this is the v2 of this for me, but the v1 for everyone. i just realized i might have serious issues with this, moving to python back, would work with flask. 
 
-let me go and setup my env before they call me trash. nd i 
+let me go and setup my env before they call me trash. since i now plan to build it in python and 
