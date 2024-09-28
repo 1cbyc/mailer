@@ -59,7 +59,7 @@ def send_mail():
         try:
             with smtplib.SMTP('smtp.myprovider.com', 587) as server:
                 server.starttls()
-                server.login('your_email@example.com', 'your_password')
+                server.login('my@email.com', 'my_password')
                 server.send_message(msg)
             flash('Email sent successfully!', 'success')
             return redirect(url_for('send_mail'))
