@@ -4,6 +4,7 @@ In this script, the mail() function is used to send an email to the recipient em
 
 You can customize the values of these variables to suit your needs. Note that the mail() function requires a properly configured mail server on the host machine in order to work properly.
 
+I intend to write multiple versions of email sending systems for web pages. However, we would start from the most basic method in v1 to a lot more complex module over time. Keep watch, I might as well write a version that'll allow you send emails on web pages via another user email.
 
 ## UPDATE
 today is september 2024, and i am making a significant update to this. i had this project for my personal use over the years and now i want to allow anyone use it and also update it. please note that it is for educational use only and i am not liable for any how you apply it.
