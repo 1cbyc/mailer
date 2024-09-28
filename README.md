@@ -5,7 +5,7 @@ In this script, the mail() function is used to send an email to the recipient em
 You can customize the values of these variables to suit your needs. Note that the mail() function requires a properly configured mail server on the host machine in order to work properly.
 
 
-## UPDATE -
+## UPDATE
 today is september 2024, and i am making a significant update to this. i had this project for my personal use over the years and now i want to allow anyone use it and also update it. please note that it is for educational use only and i am not liable for any how you apply it.
 
 i was thinking i should revamp from php to python for the backend, but i realized not everyone would be able to work with python easy.
