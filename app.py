@@ -19,7 +19,7 @@ def send_mail():
         msg['To'] = recipient
 
         try:
-            with smtplib.SMTP('smtp.my-provider.com', 587) as server:
+            with smtplib.SMTP('smtp.myprovider.com', 587) as server:
                 server.starttls()
                 server.login('my@mail.com', 'my_password')
                 server.send_message(msg)
