@@ -1,8 +1,8 @@
 mailer/
 ├── config/
-│   └── config.php       # For configuration like SMTP details
+│   └── config.php     
 ├── src/
-│   ├── Mailer.php       # A class to handle email sending
+│   ├── Mailer.php       
 │   └── functions.php    # Utility functions (sanitization, validation)
 ├── logs/
 │   └── mail.log         # Logs sent emails and errors
