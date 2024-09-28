@@ -116,6 +116,5 @@ darglint.txt
 *.DS_Store
 Thumbs.db
 
-
 # env
-/mailer_env/
+mailer_env/
